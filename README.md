@@ -111,5 +111,3 @@ This project provides valuable insights into the top-selling products across var
 
 
 ---
-
-يمكنك نسخ هذا النص ولصقه في ملف `README.md` على GitHub، وسيكون جاهزاً للعرض بشكل منظم واحترافي.
