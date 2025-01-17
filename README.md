@@ -2,6 +2,8 @@
 
 # Top Selling Products Data Analysis Project
 
+![Power BI Dashboard](Dashbord Top_selling.jpg)
+
 ## Overview
 This project focuses on analyzing the top-selling products across various categories. The analysis includes insights into total units sold, revenue, average ratings, and other key metrics. The final dashboard is visualized using **Power BI**, and the dataset is provided in an Excel file.
 
