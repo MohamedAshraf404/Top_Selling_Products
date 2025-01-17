@@ -1,5 +1,3 @@
-بالطبع! هذا هو النص المعدل مع تنسيق مناسب لـ **README.md** على GitHub. تم استخدام تنسيق Markdown لجعل النص أكثر تنظيماً وسهولة للقراءة.
-
 ---
 
 # Top Selling Products Data Analysis Project
@@ -111,18 +109,6 @@ This project provides valuable insights into the top-selling products across var
 
 ---
 
-### Example of Code to Load Data in Power BI (Optional)
-If you want to include a code snippet for loading the data in Power BI, you can add this:
-
-```powerquery
-let
-    Source = Excel.Workbook(File.Contents("Top_Selling_Products.xlsx"), null, true),
-    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
-    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
-    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Rank", Int64.Type}, {"Product Name", type text}, {"Category", type text}, {"Year Released", Int64.Type}, {"Price ($)", type number}, {"Rating", type number}, {"Units Sold", Int64.Type}})
-in
-    #"Changed Type"
-```
 
 ---
 
